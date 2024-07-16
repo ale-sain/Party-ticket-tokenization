@@ -1,18 +1,18 @@
-# Usage of TechnoParty42 Smart Contract
+# Usage of EventTicket42 Smart Contract
 
 ## Introduction
 
-This guide explains how to deploy and use the TechnoParty42 smart contract. This contract allows the creation and management of ERC721 tokens with metadata, images, VIP status, and royalty payments.
+This guide explains how to deploy and use the EventTicket42 smart contract. This contract allows the creation and management of ERC721 tokens with metadata, images, VIP status, and royalty payments.
 
-## TechnoParty42 Contract
+## EventTicket42 Contract
 
 ### Description
 
-The TechnoParty42 contract is an ERC721 token that represents event tickets for a party. These tokens can be minted with specific metadata and images, and can have a VIP status. Additionally, the contract supports royalty payments, ensuring that the original creator receives a percentage of secondary sales.
+The EventTicket42 contract is an ERC721 token that represents event tickets for a party. These tokens can be minted with specific metadata and images, and can have a VIP status. Additionally, the contract supports royalty payments, ensuring that the original creator receives a percentage of secondary sales.
 
 ### ERC721 Functionalities
 
-Since TechnoParty42 is based on the ERC721 standard, it inherits all the basic ERC721 functionalities, including:
+Since EventTicket42 is based on the ERC721 standard, it inherits all the basic ERC721 functionalities, including:
 - `transfer`: Transfer tokens to another address.
 - `approve`: Approve another address to transfer tokens on your behalf.
 - `transferFrom`: Transfer tokens from one address to another using an allowance mechanism.
@@ -21,12 +21,11 @@ Since TechnoParty42 is based on the ERC721 standard, it inherits all the basic E
 
 ### Initialization
 
-Initialize the contract with an initial supply of tokens, the initial price and the multi-signature wallet address.
+Initialize the contract with maximum supply of tokens.
 
-    uint256 initialSupply = 1000000 * (10 ** 18);
-    uint256 initialPrice = 1 ether;
-    address multiSigWallet = 0x123...;
-    RealEstate42 token = new RealEstate42(initialSupply, initialPrice, multiSigWallet);
+    // Deploy the contract
+    maxSupply = 3000;
+    EventTicket42 token = new EventTicket42(maxSupply);
 
 ### Main Functions
    - `mint`: 
@@ -68,17 +67,19 @@ Initialize the contract with an initial supply of tokens, the initial price and 
    
    - `getTokenImage` :
      - **Parameters:** `tokenId`: Token ID to query.
-     - **Return Values:** Base64 encoded image of the token.
+     - **Return Values:** IPFS URL image of the token.
      - **Usage:** Get the image for a given token ID.
+    
+  - `totalSupply`: 
+     - **Parameters:** None.
+     - **Return Values:** The total number of tokens minted.
+     - **Usage:** Get the total number of tokens minted.
 
 
 ### Example Usage
 
-   // Deploy the contract
-   TechnoParty42 token = new TechnoParty42();
-
    // Mint a new token
-   token.mint(0xRecipientAddress, "tokenURI", "metadata", "imageBase64", true);
+   token.mint(0xRecipientAddress, "tokenURI", "metadata", "imageData", true);
 
    // Check if a token is VIP
    bool isVIP = token.isVipTicket(tokenId);
@@ -94,6 +95,9 @@ Initialize the contract with an initial supply of tokens, the initial price and 
 
    // Get token image
    string memory image = token.getTokenImage(tokenId);
+
+   // Get total supply
+   uint256 total = token.totalSupply();
 
 ### Notes
 

@@ -1,7 +1,7 @@
-# The TechnoParty42 NFT (TP42)
+# The EventTicket42 NFT (ET42)
 
 ## Overview
-**The TechnoParty42 Token** project aims to revolutionize event ticketing by leveraging NFT technology. By tokenizing concert and party tickets as NFTs, we enhance security, transparency, and user experience, making event attendance and ticket management more efficient and engaging.
+**The EventTicket42 Token** project aims to revolutionize event ticketing by leveraging NFT technology. By tokenizing concert and party tickets as NFTs, we enhance security, transparency, and user experience, making event attendance and ticket management more efficient and engaging.
 
 ## Blockchain : Ethereum
 Ethereum was chosen as the blockchain for this project due to its robustness, extensive ecosystem, and compatibility with smart contracts, especially ERC-721 contracts.
@@ -20,12 +20,12 @@ Each token is unique and non-fungible, allowing for distinctive attributes (e.g.
 ## Project Directory Structure
 
 ### `code/`
-Contains all the source code files for the smart contracts. The source code includes the contract `TechnoParty.sol`, which defines the token's functionality and user interactions.
+Contains all the source code files for the smart contracts. The source code includes the contract `ET42.sol`, which defines the token's functionality and user interactions.
 
 ### `deployment/`
 This section explains how to set up a full hardhat project, from basically writing the smart contract to its full deployment on the Ethereum blockchain. It contains files used to deploy the contract.
 
 ### `documentation/`
-This section helps developers and users understand how the TechnoParty42 Token works and how to interact with it.
+This section helps developers and users understand how the EventTicket42 Token works and how to interact with it.
 
-**TechnoParty42 (TP42) Contract :** https://sepolia.etherscan.io/address/0xb3019d75F3e9488aFdB7ABF6319e8c78C52eaD96
+**EventTicket42 (ET42) Contract :** https://sepolia.etherscan.io/address/0x58666114DeF0D5439417E06Fa62eec25703Eb64D
