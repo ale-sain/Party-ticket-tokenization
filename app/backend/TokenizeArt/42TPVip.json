@@ -1,0 +1,30 @@
+{
+    "name": "42 Techno Party NFT",
+    "description": "This NFT grants access to the 42 Techno party on July 23, 2024 at the Grand Arena.",
+    "image": "ipfs://Qmdnrj9a2ycAbdmKwTBwWGCUS5bkyRMYRV8pXtUy5SXhC7",  
+    "attributes": [
+      {
+        "trait_type": "Event",
+        "value": "42 Techno Party"
+      },
+      {
+        "trait_type": "Type",
+        "value": "VIP"
+      },
+      {
+        "trait_type": "Date",
+        "value": "2024-07-23"
+      },
+      {
+        "trait_type": "artist",
+        "value": "ale-sain"
+      }
+    ],
+    "event_details": {
+      "organizer": "42 Techno Collectif",
+      "start_time": "23:00",
+      "end_time": "7:00",
+      "address": "67 Bd Bessieres, Paris",
+      "additional_info": "Doors open at 22:30. Please bring a valid ID along with this NFT."
+    }
+  }

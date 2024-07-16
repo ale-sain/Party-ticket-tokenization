@@ -1,0 +1,183 @@
+/* SelectedItem.css */
+.selected-item {
+    position: relative;
+}
+
+.back-button {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+    color: gray;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    color: darkgray;
+}
+
+.selected-item {
+    margin-top: -4rem;
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+}
+
+.selected-item .left {
+    width: 40%;
+    padding-right: 1em;
+    color: rgb(186, 189, 193);
+    font-weight: 600;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.selected-item .left h2 {
+    margin-top: 0;
+    font-size: 38px;
+}
+
+.selected-item .dates-block {
+    border-bottom: 1px solid #666565;
+    padding-top: 1em;
+}
+
+.location {
+    /* Custom styling for location if needed */
+}
+
+.selected-item .little-block {
+    width: 100%;
+}
+
+.spaced {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.whited {
+    color: white;
+}
+
+.selected-item .dates-block hr {
+    margin: 0.5em 0;
+}
+
+.selected-item .wallet-input {
+    width: 100%;
+    padding: 0.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border: none;
+    border-radius: 0.2em;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 16px;
+    height: 50px;
+    font-family: "Space Grotesk", Roboto, Arial, Helvetica, sans-serif;
+}
+
+.selected-item .wallet-input::placeholder {
+    color: rgba(255, 255, 255, 1);
+}
+
+.selected-item .buttons {
+    display: flex;
+    gap: 1em;
+    width: 100%;
+}
+
+.entries {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.selected-item .ticket-button {
+    flex: 1;
+    padding: 0.5em;
+    border: none;
+    border-radius: 0.2em;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    width: 100%;
+    height: 50px;
+}
+
+.selected-item .ticket-button:hover {
+    background-color: rgba(255, 255, 255, 0.199);
+}
+
+.selected-item .ticket-button:active {
+    background-color: rgba(255, 255, 255, 0.322);
+}
+
+.inside-button {
+    font-family: "Space Grotesk", Roboto, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.selected-item .rightt {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    padding: 50px;
+}
+
+.selected-item .rightt img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.message-container {
+    margin-top: 1.5em;
+    display: flex;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.error-message, .response-message {
+    margin-top:1em;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    margin-bottom:1em;
+}
+
+.transaction-hash {
+    margin-top:0.5em;
+    font-size: 14px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    word-wrap: break-word; /* Ensures the hash wraps to the next line */
+    word-break: break-all; /* Breaks long words to ensure they don't overflow */
+    overflow-wrap: break-word; /* Ensures the text wraps within the container */
+}
+
+.loading-gif img {
+    width: 100px;
+    height: 100px;
+}
+
+.transaction-hash {
+    margin-top: 0.3em;
+    font-size: 13px;
+    font-weight: 500;
+    width: 100%;
+    text-align: left;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow-wrap: break-word;
+}
+
+
