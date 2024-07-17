@@ -29,12 +29,12 @@ Initialize the contract with maximum supply of tokens.
 
 ### Main Functions
    - `mint`: 
-     - **Parameters:** 
-      - `to`: The address to receive the minted token.
-      - `tokenURI`: URI for the token metadata.
-      - `metadata`: Metadata in string format to be stored in the contract.
-      - `imageBase64`: Base64 encoded image to be stored in the contract.
-      - `isVIP`:  Boolean indicating if the token is a VIP ticket.
+     - **Parameters:**
+       -    `to`: The address to receive the minted token.
+       -    `tokenURI`: URI for the token metadata.
+       -    `metadata`: Metadata in string format to be stored in the contract.
+       -    `imageBase64`: Base64 encoded image to be stored in the contract.
+       -    `isVIP`:  Boolean indicating if the token is a VIP ticket.
      - **Return Values:** None
      - **Usage:** Mint a new token with specified metadata and image, and assign VIP status if applicable (owner only).
   
@@ -45,19 +45,19 @@ Initialize the contract with maximum supply of tokens.
 
    - `setRoyalties`: 
      - **Parameters:** 
-      - `recipient`: Address to receive the royalties.
-      - `percentageReg`: Percentage of royalties for regular tickets (in basis points).
-      - `percentageVip`: Percentage of royalties for VIP tickets (in basis points).
+       -  `recipient`: Address to receive the royalties.
+       -  `percentageReg`: Percentage of royalties for regular tickets (in basis points).
+       -  `percentageVip`: Percentage of royalties for VIP tickets (in basis points).
      - **Return Values:** None
      - **Usage:** Set the royalties recipient and percentages for regular and VIP tickets (owner only).
 
    - `royaltyInfo`: 
      - **Parameters:** 
-      - `tokenId`: Token ID to query.
-      - `salePrice`: Sale price of the token.
+       -    `tokenId`: Token ID to query.
+       -    `salePrice`: Sale price of the token.
      - **Return Values:** 
-      - Address to receive the royalties.
-      - Amount of royalties to be paid.
+       -    Address to receive the royalties.
+       -    Amount of royalties to be paid.
      - **Usage:** Get the royalty information for a given token ID and sale price.
 
    - `getTokenMetadata` :
@@ -78,26 +78,26 @@ Initialize the contract with maximum supply of tokens.
 
 ### Example Usage
 
-   // Mint a new token
-   token.mint(0xRecipientAddress, "tokenURI", "metadata", "imageData", true);
-
-   // Check if a token is VIP
-   bool isVIP = token.isVipTicket(tokenId);
-
-   // Set royalties
-   token.setRoyalties(0xRecipientAddress, 500, 1000); // 5% for regular, 10% for VIP
-
-   // Get royalty info
-   (address recipient, uint256 amount) = token.royaltyInfo(tokenId, salePrice);
-
-   // Get token metadata
-   string memory metadata = token.getTokenMetadata(tokenId);
-
-   // Get token image
-   string memory image = token.getTokenImage(tokenId);
-
-   // Get total supply
-   uint256 total = token.totalSupply();
+       // Mint a new token
+       token.mint(0xRecipientAddress, "tokenURI", "metadata", "imageData", true);
+    
+       // Check if a token is VIP
+       bool isVIP = token.isVipTicket(tokenId);
+    
+       // Set royalties
+       token.setRoyalties(0xRecipientAddress, 500, 1000); // 5% for regular, 10% for VIP
+    
+       // Get royalty info
+       (address recipient, uint256 amount) = token.royaltyInfo(tokenId, salePrice);
+    
+       // Get token metadata
+       string memory metadata = token.getTokenMetadata(tokenId);
+    
+       // Get token image
+       string memory image = token.getTokenImage(tokenId);
+    
+       // Get total supply
+       uint256 total = token.totalSupply();
 
 ### Notes
 
