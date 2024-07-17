@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './css/SelectedItem.css'
 
-const backendURL = 'http://localhost:4000';
+const backendURL = 'http://localhost:4545';
 
 const SelectedItem = ({ item, onBackClick }) => {
     const [minting, setMinting] = useState(false);

@@ -3,23 +3,15 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@chakra-ui/react": "^2.8.2",
-    "@emotion/react": "^11.11.4",
-    "@emotion/styled": "^11.11.5",
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
-    "ethers": "^6.13.1",
-    "framer-motion": "^11.3.2",
-    "ipfs-http-client": "^60.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-scripts": "5.0.1",
-    "shadcn-ui": "^0.8.0",
-    "web-vitals": "^2.1.4",
-    "web3": "^4.11.0",
-    "web3modal": "^1.9.12"
+    "web-vitals": "^2.1.4"
   },
+  "proxy": "http://localhost:4545",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
