@@ -3,11 +3,6 @@
 ## Overview
 **EventTicket42 Token** turns event tickets into NFTs, providing secure, transparent, and efficient ticket access and management for concerts and parties.
 
-## Why the ERC-721 standard ?
-The ERC-721 standard allows each token to be unique and non-fungible, making it ideal for ticketing systems where distinct attributes (e.g., VIP privileges) are essential. It enables transparent tracking of each ticket’s ownership history on the blockchain, reducing fraud and counterfeiting. Custom metadata can be included, such as event name, date, seat location, and even interactive or collectible elements (e.g., digital artwork linked to the event). This uniqueness allows tickets to become rare collectibles, especially for memorable events, adding extra value for holders.
-
-Moreover, by integrating the **IERC2981 royalty standard**, event organizers can automatically receive royalties from secondary sales of tickets. This ensures that creators or organizers capture a percentage of resale profits whenever a ticket is traded on a secondary marketplace, providing a sustainable and fair revenue model. This functionality aligns with the growing demand for **programmable revenue streams** in the Web3 economy.
-
 ## Why NFT in comparison to traditional tickets ?
 - **Security and authenticity**: Impossible to counterfeit due to blockchain technology, ensuring each ticket is authentic.
 - **Transferability**: Easily transferable between users in a secure and verifiable manner through smart contracts.
