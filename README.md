@@ -1,4 +1,4 @@
-# The EventTicket42 NFT (ET42)
+# The EventTicket42 NFT 
 
 ## Overview
 **EventTicket42 Token** turns event tickets into NFTs, providing secure, transparent, and efficient ticket access and management for concerts and parties.
