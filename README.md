@@ -17,13 +17,13 @@ Moreover, by integrating the **IERC2981 royalty standard**, event organizers can
 
 ## Project Directory Structure
 
-### `code/`
-Contains all the source code files for the smart contracts. The source code includes the contract `ET42.sol`, which defines the token's functionality and user interactions.
+### `contract/`
+Contains all the source code files for the smart contracts. The source code includes the contract `ET42.sol`, which defines the token's functionality and user interactions. It also contains a documentation to help developers and users understand how the EventTicket42 Token works and how to interact with it.
 
 ### `deployment/`
 Contains files used to deploy the contract.
 
-### `documentation/`
-This section helps developers and users understand how the EventTicket42 Token works and how to interact with it.
+### `app/`
+Hosts a local fullstack application where users can provide their wallet address to **access** pre-minted tickets, which are then transferred to their wallet. Transaction details can be tracked via **Sepolia Etherscan**.
 
 **EventTicket42 (ET42) Contract :** https://sepolia.etherscan.io/address/0x58666114DeF0D5439417E06Fa62eec25703Eb64D
