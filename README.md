@@ -1,7 +1,7 @@
 # The EventTicket42 NFT (ET42)
 
 ## Overview
-**The EventTicket42 Token** project aims to revolutionize event ticketing by leveraging NFT technology. By tokenizing concert and party tickets as NFTs, we enhance security, transparency, and user experience, making event attendance and ticket management more efficient and engaging.
+**EventTicket42 Token** turns event tickets into NFTs, providing secure, transparent, and efficient ticket access and management for concerts and parties.
 
 ## Why the ERC-721 standard ?
 The ERC-721 standard allows each token to be unique and non-fungible, making it ideal for ticketing systems where distinct attributes (e.g., VIP privileges) are essential. It enables transparent tracking of each ticket’s ownership history on the blockchain, reducing fraud and counterfeiting. Custom metadata can be included, such as event name, date, seat location, and even interactive or collectible elements (e.g., digital artwork linked to the event). This uniqueness allows tickets to become rare collectibles, especially for memorable events, adding extra value for holders.
