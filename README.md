@@ -16,7 +16,7 @@
 Contains all the source code files for the smart contracts. The source code includes the contract `ET42.sol`, which defines the token's functionality and user interactions. It also contains a documentation to help developers and users understand how the EventTicket42 Token works and how to interact with it.
 
 ### `deployment/`
-Contains files used to deploy the contract. For more details on how to deploy the contract using Hardhat, you can check [this tutorial](https://medium.com/@ijusttookadnatest/how-to-deploy-a-smart-contract-with-hardhat-2024-9abd44080029) I created.
+Contains files used to deploy the contract. For more details on how to deploy the contract using Hardhat, you can check [my tutorial](https://medium.com/@ijusttookadnatest/how-to-deploy-a-smart-contract-with-hardhat-2024-9abd44080029).
 
 ### `app/`
 Hosts a local fullstack application where users can provide their wallet address to **access** pre-minted tickets, which are then transferred to their wallet. Transaction details can be tracked via **Sepolia Etherscan**.
