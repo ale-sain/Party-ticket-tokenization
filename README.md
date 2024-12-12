@@ -10,7 +10,7 @@
 - **Royalties and revenue sharing**: By using the **IERC2981 standard**, event organizers can claim a share of profits from secondary sales. Each resale of a ticket automatically triggers a royalty payment, creating a sustainable revenue stream and encouraging long-term support for the ecosystem.
 
 
-## Project Directory Structure
+## Project Directory Structure 
 
 ### `contract/`
 Contains all the source code files for the smart contracts. The source code includes the contract `ET42.sol`, which defines the token's functionality and user interactions. It also contains a documentation to help developers and users understand how the EventTicket42 Token works and how to interact with it.
