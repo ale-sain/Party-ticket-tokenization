@@ -3,7 +3,7 @@
 ## Overview
 **EventTicket42 Token** turns event tickets into NFTs, providing secure, transparent, and efficient ticket access and management for concerts and parties.
 
-## Why NFT in comparison to traditional tickets ?
+## Why NFT in comparison to traditional tickets ? 
 - **Security and authenticity**: Impossible to counterfeit due to blockchain technology, ensuring each ticket is authentic.
 - **Transferability**: Easily transferable between users in a secure and verifiable manner through smart contracts.
 - **Programmability and control**: Smart contracts can enforce specific conditions, such as resale restrictions or royalties for organizers on secondary sales.
